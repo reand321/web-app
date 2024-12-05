@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AniShare</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <h1>Welcome to AniShare</h1>
+
+    <h2>Featured Anime from AniList</h2>
+    <ul id="anime-list"></ul>
+
+    <h2>Your Uploaded Recommendations</h2>
+    <ul id="recommendations-list"></ul>
+
+    <h2>Upload Your Anime Recommendation</h2>
+    <form id="recommendation-form" enctype="multipart/form-data">
+        <input type="text" name="title" placeholder="Title" required/><br>
+        <textarea name="description" placeholder="Description" required></textarea><br>
+        <input type="file" name="image" required/><br>
+        <textarea name="comment" placeholder="Comment/Discussion"></textarea><br>
+        <button type="submit">Upload Recommendation</button>
+    </form>
+
+    <script src="/script.js"></script>
+</body>
+</html>
