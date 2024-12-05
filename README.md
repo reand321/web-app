@@ -8,3 +8,5 @@ This is a simple CRUD web application for managing items. Users can add, update,
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/web-app.git
+2. Install dependencies
+3. node index.js
